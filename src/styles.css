@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'pkmn-gen-2';
+  src: url(pkmn_rbygsc.ttf);
+}
+
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background: #222222;
+}
+
+body {
+  align-self: center;
+  font-family: 'pkmn-gen-2'
+}
+
+p {
+  font-size: 80px;
+  color: #e1fae4;
+}

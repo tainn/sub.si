@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  sub-si:
+    build:
+      context: .
+    image: sub-si:1
+    container_name: sub-si
+    restart: unless-stopped
+    networks:
+      - traefik
+    ports:
+      - "80"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.sub-si.rule=Host(`sub.si`)"
+      - "traefik.http.routers.sub-si.entrypoints=websecure"
+      - "traefik.http.routers.sub-si.tls.certresolver=base-resolver"
+      - "traefik.http.services.sub-si.loadbalancer.server.port=80"
+
+networks:
+  traefik:
+    external: true
