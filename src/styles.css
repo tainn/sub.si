@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'pkmn-gen-2';
-  src: url(pkmn_rbygsc.ttf);
+  src: url(fonts/pkmn_rbygsc.ttf);
 }
 
 html {
@@ -17,5 +17,5 @@ body {
 
 p {
   font-size: 80px;
-  color: #e1fae4;
+  color: #e79e9e;
 }
