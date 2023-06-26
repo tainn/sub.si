@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'pkmn-gen-2';
+  font-family: "pkmn-gen-2";
   src: url(fonts/pkmn_rbygsc.ttf);
 }
 
@@ -12,7 +12,7 @@ html {
 
 body {
   align-self: center;
-  font-family: 'pkmn-gen-2'
+  font-family: "pkmn-gen-2", monospace
 }
 
 .core {
