@@ -1,6 +1,3 @@
 ## sub.si
 
-Personal domain's static html page
-
-- run via nginx
-- configured with docker labels for traefik
+Personal static page with gen 2 font // run via Nginx, sitting behind Traefik
