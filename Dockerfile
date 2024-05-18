@@ -1,2 +1,3 @@
-FROM nginx:1.23.3
-COPY src /usr/share/nginx/html
+FROM nginx:1.25.5-alpine
+
+COPY dist /usr/share/nginx/html
