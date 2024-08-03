@@ -1,3 +1,3 @@
 # sub.si
 
-personal [static page](https://sub.si) with gen 2 font. run by nginx, proxied via traefik
+Personal [static page](https://sub.si) with gen 2 font. Run by Nginx, proxied via Traefik.
