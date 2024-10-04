@@ -1,3 +1,3 @@
 # sub.si
 
-Personal static [page](https://sub.si) with a [gen II](https://bulbapedia.bulbagarden.net/wiki/Generation_II) font
+personal static [page](https://sub.si) with a [gen ii](https://bulbapedia.bulbagarden.net/wiki/Generation_II) font
