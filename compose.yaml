@@ -4,7 +4,7 @@ services:
   sub-si:
     build:
       context: .
-    image: sub-si:0.1.2
+    image: sub-si:0.1.3
     container_name: sub-si
     restart: unless-stopped
     networks:
