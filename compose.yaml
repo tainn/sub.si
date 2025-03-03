@@ -6,7 +6,7 @@ services:
     container_name: sub-si
     restart: unless-stopped
     networks:
-      - proxy
+      - ext
     ports:
       - "80"
     labels:
@@ -18,5 +18,5 @@ services:
       - "traefik.http.services.self.loadbalancer.server.port=80"
 
 networks:
-  proxy:
+  ext:
     external: true
