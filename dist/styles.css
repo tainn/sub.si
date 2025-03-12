@@ -12,7 +12,11 @@ html {
 }
 
 body {
-  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: max-content;
   font-family: "gen-ii", monospace
 }
 
